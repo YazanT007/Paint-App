@@ -1,0 +1,91 @@
+body {
+    background-color: #2e2e2e;
+}
+
+.paint-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paint-canvas {
+    border: 5px solid hsl(0, 0%, 64%);
+    border-radius: 20px;
+    background-color: white;
+    cursor: crosshair;
+}
+
+.color-platter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.color-btn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.color-btn:hover {
+    transform: scale(1.1);
+}
+
+.color-picker {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.color-picker:hover {
+    transform: scale(1.1);
+}
+
+.tool-btn {
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 13px;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.tool-btn img {
+    width: 40px;
+    height: 40px;
+}
+
+.tool-btn:hover {
+    transform: scale(1.1);
+}
+
+.tools label {
+    color: white;
+    font-size: 20px;
+}
+
+.line-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.line-label input[type="range"] {
+    cursor: pointer;
+}
