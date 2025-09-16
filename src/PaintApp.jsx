@@ -110,21 +110,21 @@ function PaintApp() {
             className={`tool-btn ${tool === "pencil" ? "active" : ""}`}
             onClick={() => setTool("pencil")}
           >
-            <img src="../public/assets/pen-svgrepo-com.svg" alt="pencil" />
+            <img src="/assets/pen-svgrepo-com.svg" alt="pencil" />
           </button>
 
           <button
             className={`tool-btn ${tool === "eraser" ? "active" : ""}`}
             onClick={() => setTool("eraser")}
           >
-            <img src="../public/assets/eraser-svgrepo-com.svg" alt="eraser" />
+            <img src="/assets/eraser-svgrepo-com.svg" alt="eraser" />
           </button>
 
           <button
             className={`tool-btn ${tool === "delete" ? "active" : ""}`}
             onClick={clearCanvas}
           >
-            <img src="../public/assets/delete-1487-svgrepo-com.svg" alt="delete canvas" />
+            <img src="/assets/delete-1487-svgrepo-com.svg" alt="delete canvas" />
           </button>
 
         </div>
